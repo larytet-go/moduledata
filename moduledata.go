@@ -5,6 +5,7 @@ package moduledata
 import (
 	"debug/elf"
 	"errors"
+	"os"
 	"unsafe"
 )
 
