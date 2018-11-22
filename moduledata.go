@@ -5,9 +5,6 @@ package moduledata
 import (
 	"debug/elf"
 	"errors"
-	"fmt"
-	"github.com/kavu/go_reuseport"
-	"github.com/mailgun/manners"
 	"io/ioutil"
 	"log"
 	"net"
