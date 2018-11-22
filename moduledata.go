@@ -5,8 +5,7 @@ package moduledata
 import (
 	"debug/elf"
 	"errors"
-	"os/exec"
-	"time"
+	"unsafe"
 )
 
 import "C"
