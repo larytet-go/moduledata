@@ -5,16 +5,8 @@ package moduledata
 import (
 	"debug/elf"
 	"errors"
-	"io/ioutil"
-	"log"
-	"net"
-	"net/http"
-	"os"
 	"os/exec"
-	"regexp"
-	"strings"
 	"time"
-	"unsafe"
 )
 
 import "C"
